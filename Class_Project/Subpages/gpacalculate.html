@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Computer Science - AUM</title>
+    <link rel="stylesheet" href="../Styles/gpacalculate.css">
+    <link rel="icon" href="../Images/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <div >
+            <p class="apply">Apply for AUM - Apply Now </p>
+        </div>
+        <div class="header_part2">
+            <a href="../index.html"><img src="../Images/Mainlogo.jfif"></a>
+            <nav id= "nav_menu">
+                <ul>
+                    <li><a href ="../index.html">Home</a></li>
+                    <li><a href = "../Subpages/CSdept.html">CS Department</a></li>
+                    <li><a href = "applyforta.html">Apply For TA</a></li>
+                    <li><a class = "active" href = "gpacalculate.html"> GPA Calculator</a></li>
+                    <li><a href = "email.html"> Campus Life</a></li>
+                    <li><a href = "email.html"> Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div>
+        <h1 style="margin-left: 70px;">GPA calculator</h1>
+        <div class="form-row">
+            
+            <div class="col first">
+                <input id="credit-hours" class="form-control" type="number" placeholder="Credit Hours"> 
+            </div>
+            <div class="col">
+                <select id="grade" class="form-control">
+                    <option value="">Grade</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="1">D</option>
+                    <option value="0">F</option>
+                </select> 
+            </div>
+            <div class="col">
+                <input id="add" class="btn btn-primary" type="button" value="Add">
+                
+            </div>
+        </div>
+        <br>
+        <div>
+            <pre>
+            </pre>
+        </div>
+        <table id="table" class="table table-bordered empty">
+            <thead>
+                <tr> 
+                    <th>Credit Hours</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+        
+            </tbody>
+            <tfoot id="tfoot">
+        
+            </tfoot>
+        </table>
+        <div class="row">
+            <div class="col first">
+                <input id="calc-gp" class="btn btn-success empty" type="button" value="Calculate">
+            </div>
+            <div class="col">
+            <input id="reset" class="btn btn-warning empty" type="button" value="Reset">
+            </div>
+        </div>
+    </div>
+    <script src="../js/gpa.js"></script>
+    <br>
+    <footer>
+        <div class="row">
+        <section class="footer_left">
+            <a href="../Class_Project/index.html"><img src="../Images/logowhite.png"></a>
+        </section>
+        <section class="footer_left2">  
+            <p class="mfooter">&copy; Sai Natha Reddy Nooli</p>
+            <p class="mfooter">S#00388420</p>
+            <p class="mfooter">contact: +1 313-888-4527</p>
+        </section>    
+            
+        <section class="footer_right">
+            <p><u>Follow US ON</u></p>
+            <p>Twitter</p>
+            <p>Facebook</p>
+            <p>Instagram</p>
+        </section>    
+        <section class="footer_right2">
+        </section>
+        </div>   
+    </footer>
+</body>
+</html>
